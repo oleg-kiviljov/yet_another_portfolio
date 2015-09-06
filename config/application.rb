@@ -8,7 +8,8 @@ Bundler.require(*Rails.groups)
 
 module Portfolio
   class Application < Rails::Application
-    # Mailer
+
+    # Mailer settings
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
         address:              'smtp.gmail.com',

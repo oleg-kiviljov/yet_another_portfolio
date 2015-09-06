@@ -11,12 +11,12 @@
  * file per style scope.
  *
  /*
- *= require template/animate
  */
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "simple-line-icons";
-@import "font-awesome";
-@import "template/style";
+@import 'template/animate';
+@import 'bootstrap-sprockets';
+@import 'simple-line-icons';
+@import 'font-awesome';
+@import 'bootstrap-custom';
+@import 'template/style';
 

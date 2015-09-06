@@ -12,7 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap
+//= require bootstrap/transition
+//= require bootstrap/scrollspy
+//= require bootstrap/affix
+//= require bootstrap/collapse
 //= require template/waypoints.min
 //= require template/smoothscroll
 //= require template/modernizr.custom

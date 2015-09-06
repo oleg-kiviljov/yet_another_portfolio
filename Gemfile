@@ -9,8 +9,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'trailblazer'
 gem 'cells'
 #gem 'pg'
+gem 'sqlite3'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'simple-line-icons-rails'
 
 group :development, :test do
   gem 'binding_of_caller'

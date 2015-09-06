@@ -11,8 +11,12 @@
  * file per style scope.
  *
  /*
- *= require font-awesome
+ *= require template/animate
+ *= require template/style
  */
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "simple-line-icons";
+@import "font-awesome";
+

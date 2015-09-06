@@ -17,6 +17,7 @@
 //= require template/smoothscroll
 //= require template/modernizr.custom
 //= require template/imagesloaded.pkgd
+//= require template/jquery.cbpQTRotator
 //= require template/jquery.easypiechart
 //= require template/jquery.parallax-1.1.3
 //= require template/jquery.sticky

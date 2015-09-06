@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portfolio</title>
+  <title>Own Little World</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= render 'shared/preloader' %>
 <%= yield %>
-
+<%= render 'shared/footer' %>
+<%= render 'shared/scroll_up' %>
 </body>
 </html>

@@ -1,0 +1,36 @@
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="social-links">
+          <li>
+            <%= link_to 'https://www.facebook.com/oleg.kiviljov', target: '_blank', class: 'wow fadeInUp'  do %>
+                <%= fa_icon 'facebook' %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to 'https://twitter.com/kivi_O', target: '_blank', data: { 'wow-delay' => '.1s' }, class: 'wow fadeInUp' do %>
+                <%= fa_icon 'twitter' %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to 'https://plus.google.com/116752880804252227301/about', target: '_blank', data: { 'wow-delay' => '.2s' }, class: 'wow fadeInUp'  do %>
+                <%= fa_icon 'google-plus' %>
+            <% end %>
+          </li>
+          <li>
+            <%= mail_to 'oleg.kiviljov@gmail.com', data: { 'wow-delay' => '.5s' }, class: 'wow fadeInUp'  do %>
+            <%= fa_icon 'envelope' %>
+            <% end %>
+          </li>
+        </ul>
+        <p class="heart">
+          Made with <span class="fa fa-heart fa-2x animated pulse"></span> in Nottingham
+        </p>
+        <p class="copyright">
+          © 2015 Oleg Kiviljov
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

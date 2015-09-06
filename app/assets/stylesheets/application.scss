@@ -12,11 +12,11 @@
  *
  /*
  *= require template/animate
- *= require template/style
  */
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "simple-line-icons";
 @import "font-awesome";
+@import "template/style";
 

@@ -1,2 +1,2 @@
 ## Yet Another Portfolio
-Every serious developer has it? Right?
+Tried to cut down dependencies to bare minimum.

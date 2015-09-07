@@ -1,2 +1,2 @@
-## Yet Another Portfolio
-Tried to cut down dependencies to bare minimum.
+## Project description
+Simple && personal online portfolio

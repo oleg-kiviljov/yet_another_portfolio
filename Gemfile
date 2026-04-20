@@ -15,5 +15,5 @@ group :development do
   gem 'binding_of_caller'
   gem 'better_errors'
   gem 'spring'
-  gem 'minaa'
+  gem 'mina'
 end
